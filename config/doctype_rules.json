@@ -1,0 +1,28 @@
+{
+  "doc_types": {
+    "WarrantyDeed": {
+      "label": "Warranty Deed",
+      "short_code": "WarrantyDeed"
+    },
+    "QuitClaimDeed": {
+      "label": "Quit Claim Deed",
+      "short_code": "QuitClaimDeed"
+    },
+    "TrustAmendment": {
+      "label": "Trust Amendment",
+      "short_code": "TrustAmendment"
+    },
+    "RiskQuestionnaire": {
+      "label": "Risk Questionnaire",
+      "short_code": "RiskQuestionnaire"
+    },
+    "InvestmentAdvisoryAgreement": {
+      "label": "Investment Advisory Agreement",
+      "short_code": "IAA"
+    },
+    "Correspondence": {
+      "label": "General Correspondence",
+      "short_code": "Correspondence"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Runtime dependencies - required to run main.py / the compiled exe.
+# For build/dev tooling (tests, PyInstaller), also install requirements-dev.txt.
+
+# Core extraction
+PyMuPDF>=1.24
+pytesseract>=0.3.10
+Pillow>=10.0
+
+# Classification schema + LLM client
+pydantic>=2.0
+anthropic>=0.40
+
+# Folder watching
+watchdog>=4.0
+
+# NOTE: pytesseract wraps the Tesseract OCR binary, which is a separate
+# system install (not a pip package) - e.g. `choco install tesseract`
+# on Windows, or download from https://github.com/UB-Mannheim/tesseract/wiki.
+# It must be on PATH, or set pytesseract.pytesseract.tesseract_cmd explicitly.

@@ -1,0 +1,24 @@
+{
+  "clients": [
+    {
+      "name": "Smith",
+      "aliases": ["John Smith", "Smith Trust", "J. Smith"],
+      "folder": "Clients/Smith"
+    },
+    {
+      "name": "Doe",
+      "aliases": ["Jane Doe", "Doe Family Trust", "J. Doe"],
+      "folder": "Clients/Doe"
+    },
+    {
+      "name": "Harmon",
+      "aliases": ["Michael Harmon", "Harmon Revocable Trust"],
+      "folder": "Clients/Harmon"
+    },
+    {
+      "name": "Whitfield",
+      "aliases": ["Sarah Whitfield", "Whitfield Family Trust"],
+      "folder": "Clients/Whitfield"
+    }
+  ]
+}

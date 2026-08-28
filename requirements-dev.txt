@@ -1,0 +1,9 @@
+# Build / dev dependencies - not needed at runtime.
+# Install with: pip install -r requirements.txt -r requirements-dev.txt
+-r requirements.txt
+
+# Tests
+pytest>=8.0
+
+# Packaging main.py into the standalone .exe
+pyinstaller>=6.0
